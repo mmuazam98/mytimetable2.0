@@ -1,0 +1,91 @@
+[
+  {
+    "subjectName": "Database Management Systems",
+    "subjectCode": "18CSC303J",
+    "subjectSlot": "A",
+    "teacher": "Dr.S.Babu",
+    "category": "Professional Core",
+    "type": "Lab Based Theory",
+    "link": "https://meet.google.com/lookup/e3riecd3ev"
+  },
+  {
+    "subjectName": "Database Management Systems",
+    "subjectCode": "18CSC303J",
+    "subjectSlot": "P31-P32",
+    "teacher": "Dr.S.Babu",
+    "category": "Professional Core",
+    "type": "Lab Based Theory",
+    "link": "https://meet.google.com/lookup/e3riecd3ev"
+  },
+  {
+    "subjectName": "Indian Art Form",
+    "subjectCode": "18LEM110L",
+    "subjectSlot": "a",
+    "teacher": "Dr.S.Babu",
+    "category": "Mandatory",
+    "type": "Practical",
+    "link": "https://meet.google.com/lookup/e3riecd3ev"
+  },
+  {
+    "subjectName": "Artificial Intelligence",
+    "subjectCode": "18CSC305J",
+    "subjectSlot": "F",
+    "teacher": "Dr.P.Akilandeswari",
+    "category": "Professional Core",
+    "type": "Lab Based Theory",
+    "link": "https://meet.google.com/lookup/e3riecd3ev"
+  },
+  {
+    "subjectName": "Artificial Intelligence",
+    "subjectCode": "18CSC305J",
+    "subjectSlot": "P27-P28",
+    "teacher": "Dr.P.Akilandeswari",
+    "category": "Professional Core",
+    "type": "Lab Based Theory",
+    "link": "https://meet.google.com/lookup/e3riecd3ev"
+  },
+  {
+    "subjectName": "Compiler Design",
+    "subjectCode": "18CSC304J",
+    "subjectSlot": "C",
+    "teacher": "Dr.G.ABIRAMI",
+    "category": "Professional Core",
+    "type": "Lab Based Theory",
+    "link": "https://meet.google.com/qoz-vpdt-nbq?authuser=1"
+  },
+  {
+    "subjectName": "Compiler Design",
+    "subjectCode": "18CSC304J",
+    "teacher": "Dr.G.ABIRAMI",
+    "subjectSlot": "P11-P12",
+    "category": "Professional Core",
+    "type": "Lab Based Theory"
+  },
+  {
+    "subjectName": "Employability Skills and Practices",
+    "subjectCode": "18PDH201T",
+    "subjectSlot": "E",
+    "teacher": "Ms.G.Poorani",
+    "category": "Humanities & Social Sciences",
+    "type": "Theory",
+    "link": "https://meet.google.com/xix-myzj-pou?authuser=1&hs=179"
+  },
+  {
+    "subjectName": "Comprehension",
+    "subjectCode": "18CSC350T",
+    "subjectSlot": "d",
+    "teacher": "Dr.S.Babu",
+    "category": "Professional Core",
+    "type": "Theory",
+    "link": "https://meet.google.com/jhc-kfwx-jpt?authuser=1&hs=179"
+  },
+  {
+    "subjectName": "MOOC/Seminar/IT",
+    "subjectCode": "18CSC307L",
+    "subjectSlot": "P49-P50",
+    "teacher": "Dr.S.Babu",
+    "category": "Professional Core",
+    "type": "Practical",
+    "link": "https://meet.google.com/ako-hpxk-efm?authuser=1"
+  }
+]

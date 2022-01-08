@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "slot": "8:00 - 9:40",
+      "subjectSlot": "A"
+    },
+    {
+      "slot": "9:45 - 11:30",
+      "subjectSlot": "F"
+    },
+    {
+      "slot": "11:35 - 12:25",
+      "subjectSlot": "G"
+    }
+  ],
+  [
+    {
+      "slot": "8:00 - 9:40",
+      "subjectSlot": "P11-P12"
+    },
+    {
+      "slot": "12:30 - 2:15",
+      "subjectSlot": "B"
+    },
+    {
+      "slot": "2:20 - 4:05",
+      "subjectSlot": "G"
+    },
+    {
+      "slot": "4:05 - 4:55",
+      "subjectSlot": "a"
+    }
+  ],
+  [
+    {
+      "slot": "8:00 - 9:40",
+      "subjectSlot": "C"
+    },
+    {
+      "slot": "9:45 - 10:35",
+      "subjectSlot": "A"
+    },
+    {
+      "slot": "10:40 - 11:30",
+      "subjectSlot": "D"
+    },
+    {
+      "slot": "11:35 - 12:25",
+      "subjectSlot": "B"
+    },
+    {
+      "slot": "1:25 - 3:10",
+      "subjectSlot": "P27-P28"
+    },
+    {
+      "slot": "3:15 - 4:55",
+      "subjectSlot": "P49-P50"
+    }
+  ],
+  [
+    {
+      "slot": "8:00 - 9:40",
+      "subjectSlot": "P31-P32"
+    },
+    {
+      "slot": "12:30 - 2:15",
+      "subjectSlot": "D"
+    },
+    {
+      "slot": "2:20 - 3:10",
+      "subjectSlot": "E"
+    },
+    {
+      "slot": "4:05 - 4:55",
+      "subjectSlot": "C"
+    }
+  ],
+  [
+    {
+      "slot": "8:00 - 9:40",
+      "subjectSlot": "E"
+    },
+    {
+      "slot": "9:45 - 10:35",
+      "subjectSlot": "C"
+    },
+    {
+      "slot": "10:40 - 11:30",
+      "subjectSlot": "F"
+    },
+    {
+      "slot": "11:35 - 12:25",
+      "subjectSlot": "d"
+    }
+  ]
+]

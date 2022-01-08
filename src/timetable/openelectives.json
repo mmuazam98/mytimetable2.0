@@ -1,0 +1,38 @@
+[
+  {
+    "subjectName": "Total Engineering Quality Management",
+    "subjectCode": "18MBO401T",
+    "subjectSlot": "G",
+    "teacher": "Mr.Yaseen Masvood",
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/rur-kbqh-rpf?authuser=1&hs=179"
+  },
+  {
+    "subjectName": "B2B Marketing",
+    "subjectCode": "18MBO406T",
+    "subjectSlot": "G",
+    "teacher": "Ms.B.Shyamala Devi",
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/rji-eyuh-hwm?authuser=1&hs=179"
+  },
+  {
+    "subjectName": "Data X - Applied Data Science with Venture Application",
+    "subjectCode": "18DCO301J",
+    "subjectSlot": "G",
+    "teacher": "Dr.M.B.Mukeshkrishnan",
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/mcj-gamb-gij?authuser=1&hs=179"
+  },
+  {
+    "subjectName": "Animal Models for Research",
+    "subjectCode": "18BTO105T",
+    "subjectSlot": "G",
+    "teacher": "Ms.Amala Reddy",
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/npt-bdqz-icn?authuser=1&hs=179"
+  }
+]
