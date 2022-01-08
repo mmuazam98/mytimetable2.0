@@ -43,7 +43,7 @@ const Timetable = () => {
   const showTimetable = () => {
     const bslot = localStorage.getItem("currPE1") || "18CSE355T";
     const dslot = localStorage.getItem("currPE2") || "18CSE352T";
-    const gslot = localStorage.getItem("currOE") || "18NTO308T";
+    const gslot = localStorage.getItem("currOE") || "18MBO401T";
     const pe1 = peb.filter((p) => p.subjectCode === bslot);
     const pe2 = ped.filter((p) => p.subjectCode === dslot);
     const oe1 = oe.filter((o) => o.subjectCode === gslot);
