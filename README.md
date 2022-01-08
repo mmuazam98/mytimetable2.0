@@ -4,7 +4,7 @@ Tired of opening the Excel sheet and going to GCR for the link again and again? 
 
 <h3>Website: 
 <a href="https://bit.ly/cseb1">
-https://bit.ly/b1cse
+https://bit.ly/b1-cse
 </a>
 </h3>
 
