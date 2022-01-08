@@ -105,7 +105,7 @@ const Timetable = () => {
           <ChooseOpenElective showTimetable={showTimetable} />
         </div>
         <div className="github">
-          <a href="https://github.com/mmuazam98/mytimetable" target="_blank" rel="noreferrer">
+          <a href="https://github.com/mmuazam98/mytimetable2.0" target="_blank" rel="noreferrer">
             <GitHubIcon />
           </a>
         </div>
