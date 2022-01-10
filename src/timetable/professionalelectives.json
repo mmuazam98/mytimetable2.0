@@ -35,6 +35,14 @@
     "link": "https://meet.google.com/tkp-aien-ihn"
   },
   {
+    "subjectName": "Biometrics",
+    "subjectCode": "18CSE357T",
+    "subjectSlot": "B",
+    "teacher": "Dr.D.Vivek",
+    "category": "Professional Elective",
+    "type": "Theory"
+  },
+  {
     "subjectName": "Information Storage and Management",
     "subjectCode": "18CSE360T",
     "subjectSlot": "D",
