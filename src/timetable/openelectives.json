@@ -34,5 +34,23 @@
     "category": "Open Elective",
     "type": "Theory",
     "link": "https://meet.google.com/npt-bdqz-icn?authuser=1&hs=179"
+  },
+  {
+    "subjectName": "Process Plant Safety",
+    "subjectCode": "18CHO104T",
+    "subjectSlot": "G",
+    "teacher": "Dr.B.Karunanithi",
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/ynr-dmca-bfo"
+  },
+  {
+    "subjectName": "Operations Research",
+    "subjectCode": "18MEO104T",
+    "subjectSlot": "G",
+    "teacher": "Mr.S.Sundar",
+    "category": "Open Elective",
+    "type": "Theory",
+    "link": "https://meet.google.com/man-yhys-wvs"
   }
 ]
