@@ -26,6 +26,7 @@ https://bit.ly/b1-cse
 - `Data Mining and Analytics`
 - `Wireless and Mobile Communications`
 - `Network Security`
+- `Biometrics`
 
 # Professional Electives (D Slot)
 
