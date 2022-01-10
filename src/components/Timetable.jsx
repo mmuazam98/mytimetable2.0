@@ -41,15 +41,17 @@ const Timetable = () => {
   let location = useLocation();
   const [timetable, setTimeTable] = useState([]);
   const showTimetable = () => {
-    const bslot = localStorage.getItem("currPE1") || "18CSE355T";
-    const dslot = localStorage.getItem("currPE2") || "18CSE352T";
-    const gslot = localStorage.getItem("currOE") || "18MBO401T";
+    const bslot = localStorage.getItem("currPE1") || "18CEE301T";
+    const dslot = localStorage.getItem("currPE2") || "18CEE315T";
+    const gslot = localStorage.getItem("currOE") || "18CEO310J";
+
     const pe1 = peb.filter((p) => p.subjectCode === bslot);
     const pe2 = ped.filter((p) => p.subjectCode === dslot);
     const oe1 = oe.filter((o) => o.subjectCode === gslot);
+
     const batch = parseInt(localStorage.getItem("batch")) || 1;
     const dayOrder = parseInt(location.pathname[1]) || 1;
-    console.log(bslot, dslot, pe2);
+
     if (batch === 1) {
       const Timetable = batch1[dayOrder - 1].concat();
       Timetable.forEach((e, index) => {

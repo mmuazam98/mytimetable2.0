@@ -1,71 +1,20 @@
 [
   {
-    "subjectName": "Digital Image Processing",
-    "subjectCode": "18CSE353J",
+    "subjectName": "Foundation Engineering and Design",
     "subjectSlot": "B",
-    "teacher": "Dr.R.RAJKAMAL",
+    "subjectCode": "18CEE301T",
+    "teacher": "Ms.K.Divya Krishnan",
     "category": "Professional Elective",
     "type": "Theory",
-    "link": "https://meet.google.com/mha-nuek-xvg?authuser=1"
+    "link": "https://meet.google.com/mej-nvgo-aef"
   },
   {
-    "subjectName": "Data Mining and Analytics",
-    "subjectCode": "18CSE355T",
-    "subjectSlot": "B",
-    "teacher": "Dr.S.Ramamoorthy",
-    "category": "Professional Elective",
-    "type": "Theory",
-    "link": "https://meet.google.com/cob-zytq-vyy?authuser=1&hs=179"
-  },
-  {
-    "subjectName": "Wireless and Mobile Communication",
-    "subjectCode": "18CSE458T",
-    "subjectSlot": "B",
-    "teacher": "Dr.G.Niranjana",
-    "category": "Professional Elective",
-    "type": "Theory"
-  },
-  {
-    "subjectName": "Network Security",
-    "subjectCode": "18CSE354T",
-    "subjectSlot": "B",
-    "teacher": "Dr.T.K.Siva Kumar",
-    "category": "Professional Elective",
-    "type": "Theory",
-    "link": "https://meet.google.com/tkp-aien-ihn"
-  },
-  {
-    "subjectName": "Biometrics",
-    "subjectCode": "18CSE357T",
-    "subjectSlot": "B",
-    "teacher": "Dr.D.Vivek",
-    "category": "Professional Elective",
-    "type": "Theory"
-  },
-  {
-    "subjectName": "Information Storage and Management",
-    "subjectCode": "18CSE360T",
+    "subjectName": "Surface Hydrology",
     "subjectSlot": "D",
-    "teacher": "Dr.J.Selvin Paul Peter",
+    "subjectCode": "18CEE315T",
+    "teacher": "Ms.D.Jaishree",
     "category": "Professional Elective",
     "type": "Theory",
-    "link": "https://meet.google.com/mha-nuek-xvg?authuser=1"
-  },
-  {
-    "subjectName": "Neuro Fuzzy and Genetic Programming",
-    "subjectCode": "18CSE352T",
-    "subjectSlot": "D",
-    "teacher": "Dr.R.I.Minu",
-    "category": "Professional Elective",
-    "type": "Theory"
-  },
-  {
-    "subjectName": "Wireless Sensor Networks",
-    "subjectCode": "18CSE451T",
-    "subjectSlot": "D",
-    "teacher": "Dr.S.Pradeep",
-    "category": "Professional Elective",
-    "type": "Theory",
-    "link": "https://meet.google.com/wuj-hpoj-tys"
+    "link": "https://meet.google.com/pbi-cjxk-ynd"
   }
 ]

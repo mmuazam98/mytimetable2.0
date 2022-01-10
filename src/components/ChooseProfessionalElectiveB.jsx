@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 const ChooseProfessionalElective = (props) => {
   const classes = useStyles();
   const [electives, setElectives] = useState([]);
-  const currPE1 = localStorage.getItem("currPE1") || "18CSE355T";
+  const currPE1 = localStorage.getItem("currPE1") || "18CEE301T";
   const [pe1, setPe1] = useState(currPE1);
 
   const handleChange = (event) => {

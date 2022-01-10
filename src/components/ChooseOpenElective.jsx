@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 const ChooseOpenElective = (props) => {
   const classes = useStyles();
   const [electives, setElectives] = useState([]);
-  const currPE1 = localStorage.getItem("currOE") || "18MBO401T";
+  const currPE1 = localStorage.getItem("currOE") || "18CEO310J";
   const [oe, setOE] = useState(currPE1);
 
   const handleChange = (event) => {
