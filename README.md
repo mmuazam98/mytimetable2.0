@@ -24,11 +24,14 @@ https://bit.ly/b1-cse
 
 - `Digital Image Processing`
 - `Data Mining and Analytics`
+- `Wireless and Mobile Communications`
+- `Network Security`
 
 # Professional Electives (D Slot)
 
 - `Information Storage and Management`
 - `Neuro Fuzzy and Genetic Programming`
+- `Wireless Sensor Networks`
 
 # Open Electives (G Slot)
 
@@ -36,6 +39,8 @@ https://bit.ly/b1-cse
 - `B2B Marketing`
 - `Data X - Applied Data Science with Venture Application`
 - `Animal Models for Research`
+- `Process Plant Safety`
+- `Operations Research`
 
 # Demo
 
