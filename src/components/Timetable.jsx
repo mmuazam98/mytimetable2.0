@@ -6,10 +6,13 @@ import common from "../timetable/common.json";
 import peb from "../timetable/professionalelectives.json";
 import ped from "../timetable/professionalelectives.json";
 import oe from "../timetable/openelectives.json";
+
 import ChooseBatch from "./ChooseBatch";
 import ChooseProfessionalElectiveB from "./ChooseProfessionalElectiveB";
 import ChooseProfessionalElectiveD from "./ChooseProfessionalElectiveD";
 import ChooseOpenElective from "./ChooseOpenElective";
+import AnimatedComponent from "./AnimatedComponent";
+
 import { makeStyles } from "@mui/styles";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -20,6 +23,7 @@ import { useLocation } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import BugReportRoundedIcon from "@mui/icons-material/BugReportRounded";
 import Tooltip from "@mui/material/Tooltip";
+import { AnimatePresence } from "framer-motion/dist/framer-motion";
 
 const useStyles = makeStyles({
   root: {
@@ -49,7 +53,6 @@ const Timetable = () => {
     const oe1 = oe.filter((o) => o.subjectCode === gslot);
     const batch = parseInt(localStorage.getItem("batch")) || 1;
     const dayOrder = parseInt(location.pathname[1]) || 1;
-    console.log(bslot, dslot, pe2);
     if (batch === 1) {
       const Timetable = batch1[dayOrder - 1].concat();
       Timetable.forEach((e, index) => {
@@ -109,52 +112,56 @@ const Timetable = () => {
             <GitHubIcon />
           </a>
         </div>
-        {timetable.map((tt, index) => {
-          return (
-            <Card className={classes.root} variant="outlined" key={tt.subjectCode}>
-              <CardContent>
-                <Typography className={classes.title} color="textSecondary" gutterBottom>
-                  Slot: {tt.slot}
-                </Typography>
-                <Typography variant="h5" component="h2">
-                  {tt.subjectName}
-                  <span className={classes.space}>({tt.subjectCode})</span>
-                </Typography>
-                <Typography className={classes.teacher} color="textSecondary">
-                  {tt.teacher}
-                </Typography>
-                <Typography variant="body2" component="p">
-                  <span className="subject-details">{tt.category}</span>
-                  <span className="subject-details">{tt.type}</span>
-                </Typography>
-                <div className="slot">
-                  <span>{tt.subjectSlot}</span>
-                </div>
-              </CardContent>
-              <CardActions>
-                {tt.link ? (
-                  <Button variant="contained" onClick={() => window.open(tt.link, "_blank")}>
-                    Join Now
-                  </Button>
-                ) : (
-                  <Tooltip describeChild title="Link not available.">
-                    <span>
-                      <Button variant="contained" disabled={true}>
+        <AnimatePresence>
+          <AnimatedComponent>
+            {timetable.map((tt, index) => {
+              return (
+                <Card className={classes.root} variant="outlined" key={tt.subjectCode}>
+                  <CardContent>
+                    <Typography className={classes.title} color="textSecondary" gutterBottom>
+                      Slot: {tt.slot}
+                    </Typography>
+                    <Typography variant="h5" component="h2">
+                      {tt.subjectName}
+                      <span className={classes.space}>({tt.subjectCode})</span>
+                    </Typography>
+                    <Typography className={classes.teacher} color="textSecondary">
+                      {tt.teacher}
+                    </Typography>
+                    <Typography variant="body2" component="p">
+                      <span className="subject-details">{tt.category}</span>
+                      <span className="subject-details">{tt.type}</span>
+                    </Typography>
+                    <div className="slot">
+                      <span>{tt.subjectSlot}</span>
+                    </div>
+                  </CardContent>
+                  <CardActions>
+                    {tt.link ? (
+                      <Button variant="contained" onClick={() => window.open(tt.link, "_blank")}>
                         Join Now
                       </Button>
+                    ) : (
+                      <Tooltip describeChild title="Link not available.">
+                        <span>
+                          <Button variant="contained" disabled={true}>
+                            Join Now
+                          </Button>
+                        </span>
+                      </Tooltip>
+                    )}
+                  </CardActions>
+                  {!tt.link && (
+                    <span className="small not-available">
+                      <BugReportRoundedIcon />
+                      Link not available.
                     </span>
-                  </Tooltip>
-                )}
-              </CardActions>
-              {!tt.link && (
-                <span className="small not-available">
-                  <BugReportRoundedIcon />
-                  Link not available.
-                </span>
-              )}
-            </Card>
-          );
-        })}
+                  )}
+                </Card>
+              );
+            })}
+          </AnimatedComponent>
+        </AnimatePresence>
       </div>
     </div>
   );
