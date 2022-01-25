@@ -15,10 +15,6 @@
   ],
   [
     {
-      "slot": "8:00 - 9:40",
-      "subjectSlot": "P11-P12"
-    },
-    {
       "slot": "12:30 - 2:15",
       "subjectSlot": "B"
     },
@@ -91,6 +87,10 @@
     {
       "slot": "11:35 - 12:25",
       "subjectSlot": "d"
+    },
+    {
+      "slot": "3:10 - 4:55",
+      "subjectSlot": "P11-P12"
     }
   ]
 ]
