@@ -49,8 +49,9 @@ export default function ThemeModal() {
             Choose a theme
             <PaletteIcon />
           </div>
-          {themes.map((th) => (
+          {themes.map((th, idx) => (
             <div
+              key={idx}
               className="theme"
               onClick={() => {
                 setTheme(th);

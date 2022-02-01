@@ -8,7 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #f8f7ff;
-  /* overflow: auto !important; */
+  overflow-x: hidden !important;
 }
 .default {
   --nav: teal;
