@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, Route, Switch } from "react-router-dom";
+import { useLocation, Route, Switch, Redirect } from "react-router-dom";
 import { AnimatePresence } from "framer-motion/dist/framer-motion";
 import Navigation from "./components/Navigation";
 import MobileNavigation from "./components/MobileNavigation";
@@ -16,6 +16,9 @@ const App = () => {
       <Navigation />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
+          <Route path="/" exact>
+            <Redirect to="/1" />
+          </Route>
           <Route path="/:id" exact>
             <Timetable />
           </Route>
